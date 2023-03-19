@@ -1,0 +1,2 @@
+# Kabyle-Silver
+ "Kabyle Silver Jewelry is a single-page website that showcases the traditional silver jewelry of the Kabyle people of Algeria. The website features high-quality images of the jewelry, along with a brief description of the history and cultural significance of Kabyle silver jewelry. The website is built using HTML and CSS, and is designed to be mobile-friendly and easy to navigate. This project is a great way to learn about the traditional jewelry of the Kabyle people, as well as practice your web development skills."
