@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="ContactUs.css" />
+    <link rel="stylesheet" href="Home.html">
+    <link rel="stylesheet" href="AboutUS.html">
+    <link rel="stylesheet" href="Products.html">
+  </head>
+  <body>
+    <nav>
+      <ul class="navList">
+        <p id="title">Kabyle Silver</p>
+        <ul class="navPagesList">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="AboutUS.html">About Us</a></li>
+        </ul>
+      </ul>
+    </nav>
+    <div class="container">
+      <fieldset>
+        <legend>Contact Us</legend>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </fieldset>
+      <div class="footer">
+        <div class="contact-info">
+          <h2>Other Ways to Contact Us:</h2>
+          <p>Email: <a href="mailto:info@business.com">info@business.com</a></p>
+          <p>Phone: <a href="tel:+15555555555">+1-555-555-5555</a></p>
+          <p>Address: 123 Main St, Anytown, USA</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

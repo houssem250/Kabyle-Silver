@@ -1,0 +1,171 @@
+/* latin */
+@font-face {
+  font-family: 'Carter One';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/carterone/v17/q5uCsoe5IOB2-pXv9UcNExN8hA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #142D4C;
+  font-family: 'Carter One';
+}
+body {
+  box-sizing: border-box;
+  min-height: 110vh;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+p:hover, h1:hover, h2:hover{
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+}
+
+:root {
+}
+
+/*Header*/
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 50px 25px 50px 50px;
+  border-bottom: 1px solid #ebebeb;
+  background-color: transparent;
+}
+
+.navPagesList {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-weight: 900;
+}
+
+.navPagesList li {
+  margin: 0 25px;
+}
+.navPagesList li a {
+  text-decoration: none;
+  font-size: 22px;
+  padding: 5px 10px 5px 10px;
+  border-bottom: 1px solid #ebebeb;
+  color: #142D4C;
+}
+.navPagesList li a:hover {
+  border-bottom: solid 2px #142D4C;
+  border-radius: 7px;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lobster/v28/neILzCirqoswsqX9zo-mM5Ez.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lobster/v28/neILzCirqoswsqX9zoamM5Ez.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lobster/v28/neILzCirqoswsqX9zo2mM5Ez.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lobster/v28/neILzCirqoswsqX9zoymM5Ez.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lobster/v28/neILzCirqoswsqX9zoKmMw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+#title {
+  font-family: 'Lobster';
+  font-size: 36px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 2px #8a8ae86e;
+}
+
+/*hightlights*/
+.highlights {
+  max-width: 1200px;
+  margin: 50px auto 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  grid-row-gap: 20px;
+  padding: 10px;
+}
+
+.highlights .element {
+  width: 350px;
+}
+
+.highlights img {
+  height: 300px;
+  width: 200px;
+  border-radius: 21px;
+  filter: brightness(1.6);
+  box-shadow: 5px 5px 8px rgb(0 0 0 / 30%);
+}
+.highlights .summary {
+  margin-top: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+}
+.highlights .price {
+  margin-top: 5px;
+  font-size: 28px;
+  font-weight: bolder;
+  width: 200px;
+  text-align: center;
+  border-bottom: solid 3px #142D4C;
+  border-radius: 7px;
+}
+
+/* Check out */
+.checkout-btn {
+    position: fixed;
+    top: 90vh;
+    left: 25px; /* Set the distance between the button and the left edge of the viewport */
+    background-color: #272343bf;
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1; /*The z-index property is set to 1 to ensure that the button appears on top of other page elements. You can adjust this value as needed based on your page's layout.*/
+  }
